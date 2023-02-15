@@ -1,4 +1,4 @@
-package PadroesDeProjetos.Criacao.Singleton;
+package PadroesDeProjetos.criacao.singleton;
 
 public class SingletonLazy {
 
