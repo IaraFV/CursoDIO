@@ -1,4 +1,5 @@
 package PadroesDeProjetos;
+import PadroesDeProjetos.Estrutural.Facade.Facade;
 import PadroesDeProjetos.coportamentais.strategy.Comportamento;
 import PadroesDeProjetos.coportamentais.strategy.CoportamentoNormal;
 import PadroesDeProjetos.coportamentais.strategy.Robo;
@@ -37,5 +38,10 @@ public class Teste {
         robo.mover();
         robo.setComportamento(defensivo);
         robo.mover();
+
+        //Facade
+
+        Facade facade = new Facade();
+        facade.migrarCliente("Jose", "1234567");
     }
 }
