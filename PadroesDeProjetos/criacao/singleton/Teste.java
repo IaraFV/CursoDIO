@@ -1,5 +1,4 @@
-package PadroesDeProjetos.Criacao.Singleton;
-import PadroesDeProjetos.Criacao.Singleton.SingletonLazy;
+package PadroesDeProjetos.criacao.singleton;
 
 public class Teste {
     public static void main(String[] args) {
